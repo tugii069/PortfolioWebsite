@@ -1,115 +1,181 @@
 @import url("https://use.typekit.net/jmk3xov.css");
 
+/* Ensure the canvas covers the entire screen */
 canvas {
   position: fixed;
   top: 0;
   left: 0;
 }
 
+/* Define root variables for consistent styling */
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
+  /* Dark background color with transparency */
   --spacing: 350px;
+  /* Spacing between sections */
 
   font-family: brandon-grotesque, sans-serif;
+  /* Primary font */
   font-weight: 400;
   font-style: normal;
 }
 
+/* Main content container */
 main {
   width: 100vw;
+  /* Full viewport width */
   color: white;
+  /* Text color */
   z-index: 99;
+  /* Ensure content is above the canvas */
   position: absolute;
   width: 100%;
   margin: 0px auto;
   padding: 120px 0px;
-  
+  /* Top and bottom padding */
+
   display: grid;
+  /* Use CSS Grid for layout */
   grid-template-columns: repeat(12, 1fr);
+  /* 12-column grid */
 }
 
-h1, h2, h3, blockquote {
+/* Styling for headings and blockquotes */
+h1,
+h2,
+h3,
+blockquote {
   font-family: elevon, sans-serif;
+  /* Secondary font for headings */
   font-weight: 700;
   font-style: normal;
 }
 
+/* Ensure the canvas stays fixed */
 canvas {
   position: fixed;
   top: 0;
   left: 0;
 }
 
+/* Header styling */
 header {
   background: var(--dark-bg);
+  /* Dark background */
   grid-column: 2 / span 5;
+  /* Span 5 columns starting from column 2 */
   font-size: 2.5rem;
+  /* Large font size */
   padding: 2rem;
+  /* Padding inside the header */
   margin-bottom: var(--spacing);
+  /* Spacing below the header */
 }
 
+/* General section styling */
 section {
-  grid-column: 2 / 8; /* Erweitert, um mehr Platz für Text zu bieten */
+  grid-column: 2 / 8;
+  /* Span from column 2 to 8 */
   padding: 1rem;
+  /* Padding inside sections */
   background: var(--dark-bg);
+  /* Dark background */
   font-size: 1.25rem;
+  /* Font size */
   line-height: 1.5;
+  /* Line height for better readability */
   margin-bottom: var(--spacing);
+  /* Spacing below sections */
 }
 
+/* Blockquote styling */
 blockquote {
   margin: 0;
   padding: 0;
   grid-column: 2 / span 9;
+  /* Span 9 columns starting from column 2 */
   margin-bottom: var(--spacing);
+  /* Spacing below blockquotes */
 }
 
+/* Paragraphs inside blockquotes */
 blockquote p {
   color: black;
+  /* Text color */
   background-color: white;
-  font-size: 2.5rem; /* Kleinere Schriftgröße für bessere Lesbarkeit */
+  /* Background color */
+  font-size: 2.5rem;
+  /* Large font size */
   display: inline;
-  line-height: 1.2; /* Verbesserte Zeilenhöhe */
-  padding: 0.5rem; /* Padding für bessere Abstände */
+  /* Inline display */
+  line-height: 1.2;
+  /* Line height */
+  padding: 0.5rem;
+  /* Padding inside the blockquote */
 }
 
+/* Left-aligned sections */
 .left {
   grid-column: 6 / 12;
+  /* Span from column 6 to 12 */
   background: var(--dark-bg);
+  /* Dark background */
   padding: 1rem;
+  /* Padding inside the section */
   font-size: 1.25rem;
+  /* Font size */
   line-height: 1.5;
+  /* Line height */
   margin-bottom: var(--spacing);
+  /* Spacing below the section */
 }
 
-/* Zusätzliche Anpassungen für bessere Lesbarkeit */
+/* Light sections (e.g., skills section) */
 section.light {
   background: var(--dark-bg);
+  /* Dark background */
   grid-column: 2 / 8;
+  /* Span from column 2 to 8 */
   padding: 1rem;
+  /* Padding inside the section */
   font-size: 1.25rem;
+  /* Font size */
   line-height: 1.5;
+  /* Line height */
   margin-bottom: var(--spacing);
+  /* Spacing below the section */
 }
 
+/* Headings inside light sections */
 section.light h2 {
   font-size: 2rem;
+  /* Larger font size for headings */
   margin-bottom: 1rem;
+  /* Spacing below headings */
 }
 
+/* Paragraphs inside light sections */
 section.light p {
   font-size: 1.25rem;
+  /* Font size */
   line-height: 1.5;
+  /* Line height */
 }
 
-/* Anpassungen für die Berufserfahrung */
+/* Headings inside left-aligned sections */
 section.left h3 {
   font-size: 1.75rem;
+  /* Font size for subheadings */
   margin-bottom: 0.5rem;
+  /* Spacing below subheadings */
 }
 
+/* Paragraphs inside left-aligned sections */
 section.left p {
   font-size: 1.25rem;
+  /* Font size */
   line-height: 1.5;
+  /* Line height */
   margin-bottom: 1rem;
+  /* Spacing below paragraphs */
 }
