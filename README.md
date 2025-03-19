@@ -1,42 +1,52 @@
-# Tugay Kir - Persönliche Website
+# Tugay Kir - Personal Website
 
-Willkommen auf meiner persönlichen Website! Diese Website dient als interaktiver Lebenslauf und Portfolio, um meine Fähigkeiten, Erfahrungen und Projekte zu präsentieren. Die Website wurde mit **Three.js** erstellt, um eine immersive 3D-Erfahrung zu bieten.
 
----
+Welcome to my personal website! This website serves as an interactive resume and portfolio to showcase my skills, experiences, and projects. The website was created with **Three.js** to provide an immersive 3D experience.
 
-## 🚀 Über das Projekt
-
-Diese Website ist ein persönliches Projekt, das meine Fähigkeiten in der Webentwicklung und 3D-Programmierung zeigt. Sie kombiniert moderne Webtechnologien wie **HTML**, **CSS**, **JavaScript** und **Three.js**, um eine dynamische und visuell ansprechende Darstellung meines Lebenslaufs zu schaffen.
-
-### Hauptmerkmale:
-- **3D-Hintergrund**: Ein interaktiver 3D-Hintergrund, der mit Three.js erstellt wurde.
-- **Responsive Design**: Die Website ist für alle Bildschirmgrößen optimiert.
-- **Interaktive Elemente**: Scrollen und Kamerabewegungen sorgen für eine immersive Erfahrung.
 
 ---
 
-## 🛠️ Technologien
 
-- **Three.js**: Für die 3D-Grafiken und Animationen.
-- **HTML5 & CSS3**: Für die Struktur und das Design der Website.
-- **JavaScript**: Für die Interaktivität und Logik.
-- **Vite**: Als Build-Tool für schnelle Entwicklung und optimierte Bereitstellung.
+## 🚀 About the Project
+
+This website is a personal project that demonstrates my web development and 3D programming skills. It combines modern web technologies such as **HTML**, **CSS**, **JavaScript**, and **Three.js** to create a dynamic and visually appealing representation of my resume.
+
+
+### Main Features:
+- **3D Background**: An interactive 3D background created with Three.js.
+- **Responsive Design**: The website is optimized for all screen sizes.
+- **Interactive Elements**: Scrolling and camera movements provide an immersive experience.
+
 
 ---
 
-## 🖥️ Installation und lokale Ausführung
 
-Falls du das Projekt lokal ausführen möchtest, folge diesen Schritten:
+## 🛠️ Technologies
+- **Three.js**: For 3D graphics and animations.
+- **HTML5 & CSS3**: For the structure and design of the website.
+- **JavaScript**: For interactivity and logic.
+- **Vite**: As a build tool for fast development and optimized deployment.
 
-1. **Projekt klonen**:
+
+---
+
+
+## 🖥️ Installation and Local Execution
+If you want to run the project locally, follow these steps:
+
+
+---
+
+
+1. **Clone project**:
    ```bash 
    git clone https://github.com/tugii069/PortfolioWebsite.git
    cd portfoliowebsite
-2. **Abhängigkeiten installieren**:
+2. **Install dependencies**:
    ```bash
    npm install
-3. **Entwicklungsserver starten**:
+3. **Start the development server**:
    ```bash
    npm run dev
-4. **Öffne die Website**:
-   Öffne deinen Browser und gehe zu http://localhost:5173
+4. **Open the website**:
+   Open your browser and go to http://localhost:5173
